@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0243A1F42A74F3F6008280F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0243A1F32A74F3F6008280F1 /* AppDelegate.swift */; };
+		0243A1F62A74F3F6008280F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0243A1F52A74F3F6008280F1 /* SceneDelegate.swift */; };
+		0243A1F82A74F3F6008280F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0243A1F72A74F3F6008280F1 /* ViewController.swift */; };
+		0243A1FB2A74F3F6008280F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0243A1F92A74F3F6008280F1 /* Main.storyboard */; };
+		0243A1FD2A74F3F9008280F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0243A1FC2A74F3F9008280F1 /* Assets.xcassets */; };
+		0243A2002A74F3F9008280F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0243A1FE2A74F3F9008280F1 /* LaunchScreen.storyboard */; };
+		0243A20B2A74F3F9008280F1 /* Almacen_RelojesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0243A20A2A74F3F9008280F1 /* Almacen_RelojesTests.swift */; };
+		0243A2152A74F3F9008280F1 /* Almacen_RelojesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0243A2142A74F3F9008280F1 /* Almacen_RelojesUITests.swift */; };
+		0243A2172A74F3F9008280F1 /* Almacen_RelojesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0243A2162A74F3F9008280F1 /* Almacen_RelojesUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0243A2072A74F3F9008280F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0243A1E82A74F3F6008280F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0243A1EF2A74F3F6008280F1;
+			remoteInfo = "Almacen Relojes";
+		};
+		0243A2112A74F3F9008280F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0243A1E82A74F3F6008280F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0243A1EF2A74F3F6008280F1;
+			remoteInfo = "Almacen Relojes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0243A1F02A74F3F6008280F1 /* Almacen Relojes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Almacen Relojes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0243A1F32A74F3F6008280F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0243A1F52A74F3F6008280F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0243A1F72A74F3F6008280F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0243A1FA2A74F3F6008280F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0243A1FC2A74F3F9008280F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0243A1FF2A74F3F9008280F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0243A2012A74F3F9008280F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0243A2062A74F3F9008280F1 /* Almacen RelojesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Almacen RelojesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0243A20A2A74F3F9008280F1 /* Almacen_RelojesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Almacen_RelojesTests.swift; sourceTree = "<group>"; };
+		0243A2102A74F3F9008280F1 /* Almacen RelojesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Almacen RelojesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0243A2142A74F3F9008280F1 /* Almacen_RelojesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Almacen_RelojesUITests.swift; sourceTree = "<group>"; };
+		0243A2162A74F3F9008280F1 /* Almacen_RelojesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Almacen_RelojesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0243A1ED2A74F3F6008280F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0243A2032A74F3F9008280F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0243A20D2A74F3F9008280F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0243A1E72A74F3F6008280F1 = {
+			isa = PBXGroup;
+			children = (
+				0243A1F22A74F3F6008280F1 /* Almacen Relojes */,
+				0243A2092A74F3F9008280F1 /* Almacen RelojesTests */,
+				0243A2132A74F3F9008280F1 /* Almacen RelojesUITests */,
+				0243A1F12A74F3F6008280F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0243A1F12A74F3F6008280F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0243A1F02A74F3F6008280F1 /* Almacen Relojes.app */,
+				0243A2062A74F3F9008280F1 /* Almacen RelojesTests.xctest */,
+				0243A2102A74F3F9008280F1 /* Almacen RelojesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0243A1F22A74F3F6008280F1 /* Almacen Relojes */ = {
+			isa = PBXGroup;
+			children = (
+				0243A1F32A74F3F6008280F1 /* AppDelegate.swift */,
+				0243A1F52A74F3F6008280F1 /* SceneDelegate.swift */,
+				0243A1F72A74F3F6008280F1 /* ViewController.swift */,
+				0243A1F92A74F3F6008280F1 /* Main.storyboard */,
+				0243A1FC2A74F3F9008280F1 /* Assets.xcassets */,
+				0243A1FE2A74F3F9008280F1 /* LaunchScreen.storyboard */,
+				0243A2012A74F3F9008280F1 /* Info.plist */,
+			);
+			path = "Almacen Relojes";
+			sourceTree = "<group>";
+		};
+		0243A2092A74F3F9008280F1 /* Almacen RelojesTests */ = {
+			isa = PBXGroup;
+			children = (
+				0243A20A2A74F3F9008280F1 /* Almacen_RelojesTests.swift */,
+			);
+			path = "Almacen RelojesTests";
+			sourceTree = "<group>";
+		};
+		0243A2132A74F3F9008280F1 /* Almacen RelojesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0243A2142A74F3F9008280F1 /* Almacen_RelojesUITests.swift */,
+				0243A2162A74F3F9008280F1 /* Almacen_RelojesUITestsLaunchTests.swift */,
+			);
+			path = "Almacen RelojesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0243A1EF2A74F3F6008280F1 /* Almacen Relojes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0243A21A2A74F3F9008280F1 /* Build configuration list for PBXNativeTarget "Almacen Relojes" */;
+			buildPhases = (
+				0243A1EC2A74F3F6008280F1 /* Sources */,
+				0243A1ED2A74F3F6008280F1 /* Frameworks */,
+				0243A1EE2A74F3F6008280F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Almacen Relojes";
+			productName = "Almacen Relojes";
+			productReference = 0243A1F02A74F3F6008280F1 /* Almacen Relojes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0243A2052A74F3F9008280F1 /* Almacen RelojesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0243A21D2A74F3F9008280F1 /* Build configuration list for PBXNativeTarget "Almacen RelojesTests" */;
+			buildPhases = (
+				0243A2022A74F3F9008280F1 /* Sources */,
+				0243A2032A74F3F9008280F1 /* Frameworks */,
+				0243A2042A74F3F9008280F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0243A2082A74F3F9008280F1 /* PBXTargetDependency */,
+			);
+			name = "Almacen RelojesTests";
+			productName = "Almacen RelojesTests";
+			productReference = 0243A2062A74F3F9008280F1 /* Almacen RelojesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0243A20F2A74F3F9008280F1 /* Almacen RelojesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0243A2202A74F3F9008280F1 /* Build configuration list for PBXNativeTarget "Almacen RelojesUITests" */;
+			buildPhases = (
+				0243A20C2A74F3F9008280F1 /* Sources */,
+				0243A20D2A74F3F9008280F1 /* Frameworks */,
+				0243A20E2A74F3F9008280F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0243A2122A74F3F9008280F1 /* PBXTargetDependency */,
+			);
+			name = "Almacen RelojesUITests";
+			productName = "Almacen RelojesUITests";
+			productReference = 0243A2102A74F3F9008280F1 /* Almacen RelojesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0243A1E82A74F3F6008280F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0243A1EF2A74F3F6008280F1 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					0243A2052A74F3F9008280F1 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 0243A1EF2A74F3F6008280F1;
+					};
+					0243A20F2A74F3F9008280F1 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 0243A1EF2A74F3F6008280F1;
+					};
+				};
+			};
+			buildConfigurationList = 0243A1EB2A74F3F6008280F1 /* Build configuration list for PBXProject "Almacen Relojes" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0243A1E72A74F3F6008280F1;
+			productRefGroup = 0243A1F12A74F3F6008280F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0243A1EF2A74F3F6008280F1 /* Almacen Relojes */,
+				0243A2052A74F3F9008280F1 /* Almacen RelojesTests */,
+				0243A20F2A74F3F9008280F1 /* Almacen RelojesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0243A1EE2A74F3F6008280F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0243A2002A74F3F9008280F1 /* LaunchScreen.storyboard in Resources */,
+				0243A1FD2A74F3F9008280F1 /* Assets.xcassets in Resources */,
+				0243A1FB2A74F3F6008280F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0243A2042A74F3F9008280F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0243A20E2A74F3F9008280F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0243A1EC2A74F3F6008280F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0243A1F82A74F3F6008280F1 /* ViewController.swift in Sources */,
+				0243A1F42A74F3F6008280F1 /* AppDelegate.swift in Sources */,
+				0243A1F62A74F3F6008280F1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0243A2022A74F3F9008280F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0243A20B2A74F3F9008280F1 /* Almacen_RelojesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0243A20C2A74F3F9008280F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0243A2152A74F3F9008280F1 /* Almacen_RelojesUITests.swift in Sources */,
+				0243A2172A74F3F9008280F1 /* Almacen_RelojesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0243A2082A74F3F9008280F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0243A1EF2A74F3F6008280F1 /* Almacen Relojes */;
+			targetProxy = 0243A2072A74F3F9008280F1 /* PBXContainerItemProxy */;
+		};
+		0243A2122A74F3F9008280F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0243A1EF2A74F3F6008280F1 /* Almacen Relojes */;
+			targetProxy = 0243A2112A74F3F9008280F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0243A1F92A74F3F6008280F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0243A1FA2A74F3F6008280F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0243A1FE2A74F3F9008280F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0243A1FF2A74F3F9008280F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0243A2182A74F3F9008280F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0243A2192A74F3F9008280F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0243A21B2A74F3F9008280F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N8Y9XW25N7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Almacen Relojes/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vanesafonfria.Almacen-Relojes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0243A21C2A74F3F9008280F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N8Y9XW25N7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Almacen Relojes/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vanesafonfria.Almacen-Relojes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0243A21E2A74F3F9008280F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N8Y9XW25N7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vanesafonfria.Almacen-RelojesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Almacen Relojes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Almacen Relojes";
+			};
+			name = Debug;
+		};
+		0243A21F2A74F3F9008280F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N8Y9XW25N7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vanesafonfria.Almacen-RelojesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Almacen Relojes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Almacen Relojes";
+			};
+			name = Release;
+		};
+		0243A2212A74F3F9008280F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N8Y9XW25N7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vanesafonfria.Almacen-RelojesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Almacen Relojes";
+			};
+			name = Debug;
+		};
+		0243A2222A74F3F9008280F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N8Y9XW25N7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vanesafonfria.Almacen-RelojesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Almacen Relojes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0243A1EB2A74F3F6008280F1 /* Build configuration list for PBXProject "Almacen Relojes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0243A2182A74F3F9008280F1 /* Debug */,
+				0243A2192A74F3F9008280F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0243A21A2A74F3F9008280F1 /* Build configuration list for PBXNativeTarget "Almacen Relojes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0243A21B2A74F3F9008280F1 /* Debug */,
+				0243A21C2A74F3F9008280F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0243A21D2A74F3F9008280F1 /* Build configuration list for PBXNativeTarget "Almacen RelojesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0243A21E2A74F3F9008280F1 /* Debug */,
+				0243A21F2A74F3F9008280F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0243A2202A74F3F9008280F1 /* Build configuration list for PBXNativeTarget "Almacen RelojesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0243A2212A74F3F9008280F1 /* Debug */,
+				0243A2222A74F3F9008280F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0243A1E82A74F3F6008280F1 /* Project object */;
+}
